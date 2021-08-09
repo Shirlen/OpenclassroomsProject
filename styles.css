@@ -1,0 +1,8 @@
+.menu ul li
+{
+   display: flex;
+   list-style: none;
+   justify-content: flex-end;
+   display: block;
+   
+}
