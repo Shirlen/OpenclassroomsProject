@@ -1,8 +1,48 @@
-.menu ul li
+
+nav ul 
+{
+   list-style-type: none;
+   padding: 0px;
+   margin: 0px;
+   justify-content: flex-end;
+   
+}
+
+nav li
+{
+   list-style-type: none;
+   display: inline-block;
+}
+
+
+#item
+{
+   width: 900px;
+   height: 100px;
+   margin: 10px;
+   background-color: silver;
+   flex-shrink: 0;
+   overflow: hidden;
+}
+
+#container
 {
    display: flex;
-   list-style: none;
-   justify-content: flex-end;
-   display: block;
+   width: 80%;
+   max-width: 1300px;
+   margin: 70px auto O;
+   background: silver;
    
+}
+
+#populaire
+{
+   
+   display: flex;
+}
+
+.navigation
+{
+   margin: 0px;
+   justify-content: flex-end;
 }
