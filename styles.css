@@ -25,24 +25,60 @@ nav li
    overflow: hidden;
 }
 
-#container
+.container
 {
    display: flex;
-   width: 80%;
-   max-width: 1300px;
-   margin: 70px auto O;
+   flex: 65%;
    background: silver;
+   flex-direction: column;
    
 }
 
-#populaire
+.populaire
 {
    
    display: flex;
+   flex: 25%;
+   background-color: silver;
+
 }
 
 .navigation
 {
    margin: 0px;
    justify-content: flex-end;
+}
+
+.menu
+{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+#hebergement
+{
+   display: flex;
+   justify-content: space-between;
+   
+
+}
+
+.cartes
+{
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.carte
+{
+  flex: 30%;
+  background-color: pink;
+
+}
+
+.carte img
+{
+  width: 100%;
 }
