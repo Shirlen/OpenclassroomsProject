@@ -1,5 +1,5 @@
 
-nav ul 
+/*nav ul 
 {
    list-style-type: none;
    padding: 0px;
@@ -14,6 +14,13 @@ nav li
    display: inline-block;
   
 }
+*/
+
+
+
+
+
+
 
 .container
 {
@@ -32,6 +39,7 @@ nav li
    background-color: #F2F2F2;
    border-radius: 25px;
    margin: 15px 30px 30px 30px;
+   
 
 }
 
@@ -42,21 +50,180 @@ nav li
    color: black;
 }
 
+.flexcentre
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.flexAround
+{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+
+
+.decorationNone
+{
+  text-decoration: none;
+
+}
+
+.liens 
+{
+   width:45%;
+   
+}
+
+.lien
+{
+  width: 100px;
+  height: 99px;
+}
+
+.colorLien13
+{
+  color: #0065FC;
+}
+
+.colorLien2
+{
+  color: black;
+}
+
+
 .menu
 {
    display: flex;
    justify-content: space-between;
-   border-radius: 25px;
+   border-radius: center;
 
 }
+
+.bordureNav
+{
+ border-top: 1px solid #0065FC;
+
+}
+.Nav
+{
+   height: 100px;
+}
+
+.bordureSearch
+{
+   width: 400px;
+   border-radius: 10px;
+   border: 0.5px solid white;
+}
+
+.texteGras
+{
+  font-weight: bold;
+
+}
+
+.bordureNone
+{
+   border: none;
+}
+
+.iconeSize
+{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px 0 0 10px ;
+  background-color: #F2F2F2;
+
+}
+
+.paddingSearch
+{
+   padding-left: 20px;
+}
+
+.recherche
+{
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.boutonSearch
+{
+  height: 40px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+
+}
+
+/* FILTRE */
+
+.filtreTexteIcone
+{
+   border: 2px solid #F2F2F2;
+   height: 50px;
+   border-radius: 30px;
+   margin-right: 20px;
+   
+}
+
+.filtreIcone
+{
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: blue;
+  background-color: #DEEBFF;
+}
+
+.flexbetween
+{
+   display: flex;
+   border-radius: center;
+}
+
+.margeFiltreTitre
+{
+   margin-right: 20px;
+}
+
+.margFiltre
+{
+  margin-top: 50px;
+  margin-bottom: 40px;
+
+}
+
+.filtre
+{
+   display: flex;
+   align-items: center;
+}
+
+.filtreTexte
+{
+
+   height: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-radius: 0 25px 25px 0;
+}
+
+
 
 #hebergement
 {
    display: flex;
    justify-content: space-between;
-   
-   
-
 }
 
 .cartes
@@ -64,10 +231,8 @@ nav li
    display: flex;
    flex-wrap: wrap;
    border-radius: 25px;
-   margin: 15px 30px 15px 15px;
-
+   margin: 15px 30px 15px 20px;
    
-
 }
 
 .carte
@@ -78,10 +243,6 @@ nav li
   margin-bottom: 1em;
   margin-top: 1em;
   
-
-  
-  
-
 }
 
 .carte img
@@ -89,36 +250,35 @@ nav li
   width: 100%;
   border-radius: 25px;
   margin: 15px 30px 15px 15px;
+  flex-direction: column;
   
+}
+
+.cartes img
+{
+   border-radius: 25px;
+
 }
 
 .popu
 {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   border: 1px solid white;
   border-radius: 25px;
   margin: 15px 30px 30px 30px;
+  flex-direction: column;
+  
   
 }
 
 .top
 {
   flex: 30%;
-  margin: 30px 30px;
   margin-bottom: 1em;
   margin-top: 1em;
-
-}
-
-.top img
-{
-   width: 100%;
-   border-radius: 25px;
-   margin: 15px 30px 15px;
-   flex-direction: column;
-  
+  display: flex;
+  border-radius: 25px;
 }
 
 .navigation a
@@ -126,10 +286,7 @@ nav li
    color: black;
    text-decoration: none;
    font-family: Raleway;
- 
-
-
-}
+ }
 
 .navigation a:hover
 {
@@ -153,6 +310,8 @@ p
    color: grey;
 }
 
+
+
 a.button
 {
    display: inline-block;
@@ -171,4 +330,88 @@ a.button
    display: flex;
    flex-wrap: wrap;
    border-radius: 25px;
+   flex-direction: column;
 }
+
+.imgsoleil
+{
+   background-image: url("images/hebergements/small/hotel_le_soleil_du_matin.jpg");
+   
+}
+
+.imghote
+{
+   background-image: url("images/hebergements/small/au_coeur_de-la-chambre-dhotes.jpg");
+
+}
+
+.imgpopulaire
+{
+   height: 100px;
+   width: 100%;
+   background-size: cover;
+   flex: 30%;
+   border-radius: 25px;
+   
+}
+
+.textepopulaire
+{
+   flex: 65%;
+   flex-direction: column;
+   margin: 0px 10px;
+
+}
+
+.imgcanebiere
+
+{
+   background-image: url("images/hebergements/small/petite_cannebiere.jpg");
+ 
+}
+
+.imgamina 
+{
+   background-image: url("images/hebergements/small/hotel_chez_amina.jpg");
+}
+
+.imgmouette
+{
+   background-image: url("images/hebergements/small/hotel_les_mouettes.jpg");
+}
+
+.imgmer
+{
+   background-image: url("images/hebergements/small/hotel_de_la_mer.jpg");
+}
+
+.imgpanier
+{
+   background-image: url("images/hebergements/small/auberge_le_panier.jpg");
+}
+
+.imgport
+{
+   background-image: url("images/hebergements/small/hotel_du_port.jpg");
+}
+
+.imgbleublanc
+{
+   background-image: url("images/hebergements/small/hotel_tout_bleu_blanc.jpg");
+}
+
+.imghebergement
+{
+   height: 150px;
+   width: 100%;
+   background-size: cover;
+   border-radius: 25px;
+   
+
+}
+
+
+
+
+
+
