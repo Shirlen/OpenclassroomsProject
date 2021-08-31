@@ -1,28 +1,5 @@
 
-/*nav ul 
-{
-   list-style-type: none;
-   padding: 0px;
-   margin: 0px;
-   justify-content: flex-end;
-   
-}
-
-nav li
-{
-   list-style-type: none;
-   display: inline-block;
-  
-}
-*/
-
-
-
-
-
-
-
-.container
+/*.container
 {
    display: flex;
    flex: 65%;
@@ -42,6 +19,9 @@ nav li
    
 
 }
+*/
+
+/*NAVIGATION*/
 
 .navigation
 {
@@ -63,8 +43,6 @@ nav li
  justify-content: space-around;
  align-items: center;
 }
-
-
 
 .decorationNone
 {
@@ -218,9 +196,67 @@ nav li
    border-radius: 0 25px 25px 0;
 }
 
+.filtreTexteIcone:hover > .filtreTexte 
+{
+  color: #0065FC;
+}
+
+.filtreTexteIcone:hover >  .filtreIcone
+
+{
+   color: white;
+   background-color: #0065FC;
+}
+
+/* INFO */
+
+.info
+{
+   display: flex;
+   align-items: center;
+}
+
+.parentIcone
+{
+   width: 20px;
+   height: 20px;
+   border: 2px solid white;
+   border-radius: 25px;
+   color: #0065FC;
+}
+
+/* HEBERGEMENT */
+
+.sizeHebergement
+{
+  flex: 2;
+  height: 650px;
+  margin-right: 20px;
+  border-radius: 10px;
+  
+}
+
+.sizePopulaire
+{
+  flex: 1;
+  height: 650px;
+  margin-left: 20px;
+  background-color: #F2F2F2;
+}
+
+.imgHebergements1
+{
+  background-image: url("./images/hebergements/small/petite_cannebiere.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 
-#hebergement
+
+
+
+
+/*#hebergement
 {
    display: flex;
    justify-content: space-between;
@@ -280,6 +316,8 @@ nav li
   display: flex;
   border-radius: 25px;
 }
+
+
 
 .navigation a
 {
@@ -366,7 +404,7 @@ a.button
 .imgcanebiere
 
 {
-   background-image: url("images/hebergements/small/petite_cannebiere.jpg");
+   background-image: ;
  
 }
 
@@ -399,18 +437,7 @@ a.button
 {
    background-image: url("images/hebergements/small/hotel_tout_bleu_blanc.jpg");
 }
-
-.imghebergement
-{
-   height: 150px;
-   width: 100%;
-   background-size: cover;
-   border-radius: 25px;
-   
-
-}
-
-
+*/
 
 
 
