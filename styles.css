@@ -21,7 +21,13 @@
 }
 */
 
+
 /*NAVIGATION*/
+
+*
+{
+   font-family: Raleway;
+}
 
 .navigation
 {
@@ -227,13 +233,68 @@
 
 /* HEBERGEMENT */
 
+/*
+
+.flexColumnBetween
+{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   
+}
+
+.flexColumnAround
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.flexColumnCentre
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flexBetween
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.flexAround
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexcentre
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.blocHebergement
+{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
 .sizeHebergement
 {
   flex: 2;
   height: 650px;
   margin-right: 20px;
   border-radius: 10px;
-  
+  background-color: #F2F2F2;
 }
 
 .sizePopulaire
@@ -241,6 +302,7 @@
   flex: 1;
   height: 650px;
   margin-left: 20px;
+  border-radius: 10px;
   background-color: #F2F2F2;
 }
 
@@ -249,14 +311,66 @@
   background-image: url("./images/hebergements/small/petite_cannebiere.jpg");
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
 }
 
+.imgHebergements2
+{
+  background-image: url("images/hebergements/small/hotel_du_port.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
 
+.imgHebergements3
+{
+  background-image: url("images/hebergements/small/hotel_les_mouettes.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
 
+.imgHebergements4
+{
+  background-image: url("images/hebergements/small/hotel_de_la_mer.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
 
+.imgHebergements5
+{
+  background-image: url("images/hebergements/small/auberge_le_panier.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
 
+.imgHebergements6
+{
+  background-image: url("images/hebergements/small/hotel_chez_amina.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
 
-/*#hebergement
+*/
+
+/*HEBERGEMENT*/
+
+#hebergement
 {
    display: flex;
    justify-content: space-between;
@@ -268,6 +382,7 @@
    flex-wrap: wrap;
    border-radius: 25px;
    margin: 15px 30px 15px 20px;
+  
    
 }
 
@@ -276,8 +391,13 @@
   flex: 30%;
   border: 1px solid white;
   border-radius: 25px;
-  margin-bottom: 1em;
+  margin-bottom: 10px;
   margin-top: 1em;
+  background-color: white;
+  font-size: small;
+  width: 30%;
+  height: 200px;
+  padding: 1%;
   
 }
 
@@ -296,17 +416,7 @@
 
 }
 
-.popu
-{
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid white;
-  border-radius: 25px;
-  margin: 15px 30px 30px 30px;
-  flex-direction: column;
-  
-  
-}
+
 
 .top
 {
@@ -315,10 +425,12 @@
   margin-top: 1em;
   display: flex;
   border-radius: 25px;
+  font-size: small;
+  background-color: white;
 }
 
 
-
+/*
 .navigation a
 {
    color: black;
@@ -362,6 +474,31 @@ a.button
    border-radius: 2rem;
    padding: 10px;
 }
+*/
+/*HEBERGEMENT*/
+
+.cubeHerbergement
+{
+   width: 30%;
+   height: auto;
+   background-color: white;
+   padding: 1%;
+   border-radius: 20px;
+}
+
+.detailHebergement
+{
+width: 90px;
+
+}
+
+.container
+{
+   height: 650px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: #F2F2F2;
+}
 
 .bloctop
 {
@@ -371,17 +508,7 @@ a.button
    flex-direction: column;
 }
 
-.imgsoleil
-{
-   background-image: url("images/hebergements/small/hotel_le_soleil_du_matin.jpg");
-   
-}
 
-.imghote
-{
-   background-image: url("images/hebergements/small/au_coeur_de-la-chambre-dhotes.jpg");
-
-}
 
 .imgpopulaire
 {
@@ -404,40 +531,132 @@ a.button
 .imgcanebiere
 
 {
-   background-image: ;
+   
+  background-image: url("./images/hebergements/small/petite_cannebiere.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
  
 }
 
 .imgamina 
 {
-   background-image: url("images/hebergements/small/hotel_chez_amina.jpg");
+   
+  background-image: url("images/hebergements/small/hotel_chez_amina.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
 }
 
 .imgmouette
 {
-   background-image: url("images/hebergements/small/hotel_les_mouettes.jpg");
+   
+  background-image: url("images/hebergements/small/hotel_les_mouettes.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
 }
 
 .imgmer
 {
+   
    background-image: url("images/hebergements/small/hotel_de_la_mer.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 120px;
+   border-radius: 15px 15px 0 0;
 }
 
 .imgpanier
 {
+   
    background-image: url("images/hebergements/small/auberge_le_panier.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 120px;
+   border-radius: 15px 15px 0 0;
 }
 
 .imgport
 {
-   background-image: url("images/hebergements/small/hotel_du_port.jpg");
+  
+  background-image: url("images/hebergements/small/hotel_du_port.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+  
+}
+
+/*POPULAIRE*/
+
+.popu
+{
+   height: 650px;
+   margin-left: 20px;
+   
+   border-radius: 10px;
+   background-color: #F2F2F2;
+  
 }
 
 .imgbleublanc
 {
    background-image: url("images/hebergements/small/hotel_tout_bleu_blanc.jpg");
+  
 }
-*/
+
+.imgsoleil
+{
+   background-image: url("./images/hebergements/small/hotel_le_soleil_du_matin.jpg");
+   
+}
+
+.imghote
+{
+   background-image: url("images/hebergements/small/au_coeur_de-la-chambre-dhotes.jpg");
+
+}
+
+/*Activité*/
+
+.Activite
+{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   background-color: #F2F2F2;
+}
+
+.blocActivite
+{
+   width: 100px;
+   height: 600px;
+   background-color: white;
+   display: flex;
+   flex-wrap: wrap;
+   border-radius: 25px;
+}
+
+.imgActivite
+{
+   background-image: url("images/hebergements/small/hotel_du_port.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0;
+}
+
+
 
 
 
