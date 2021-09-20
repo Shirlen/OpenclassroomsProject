@@ -2,7 +2,80 @@
 {
    body
    {
-background-color: royalblue;
+
 
    }
+
+
+.liens
+{
+   flex-direction: row;
+   
+      order: 1;
+      width: 100%;
+      margin-left: 0;
+      
 }
+
+#hebergement
+{
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.detailHebergement
+{
+   min-height: 150px;
+}
+
+.popu
+
+{
+   min-height: auto;
+   padding: 20px;
+}
+
+
+
+.filtre
+
+{
+   flex-direction: column; 
+}
+
+.bloctop
+
+{
+   flex: none;
+   width: 90%;
+   margin-left: 0;
+   padding: 5%;
+}
+
+.cubeHebergement
+
+
+
+/*.container
+
+{
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.Activite
+
+{
+   display: flex;
+   flex-direction: column-reverse;
+}
+*/
+
+
+
+}
+
+
+
+
+
