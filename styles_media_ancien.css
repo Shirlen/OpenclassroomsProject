@@ -1,0 +1,77 @@
+@media screen and (max-device-width: 640px) {
+    body {}
+
+.lien12
+{
+    margin-left: 35%;
+}
+
+    .liens {
+        flex-direction: row;
+        order: 1;
+        width: 100%;
+        margin-left: 0;
+    }
+    #hebergement {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .detailHebergement {
+        min-height: 0px;
+    }
+    .popu {
+        min-height: auto;
+        padding: 20px;
+    }
+    .filtre 
+    {
+        flex-wrap: wrap;
+        flex: 100%;
+    }
+    .bloctop {
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 5%;
+    }
+    .cartes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0px;
+    }
+    .container {
+        height: auto;
+    }
+    .carte {
+        flex: 100%;
+        width: 100%;
+        height: auto;
+    }
+    .activites {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgvieuxport,
+    .imgfortdepommegue,
+    .imgIlesdufriout,
+    .imgCalanque {
+        height: 250px;
+    }
+    .footerBox {
+        flex-direction: column;
+    }
+    .footer {
+        height: auto;
+        display: none;
+    }
+
+    /*
+.Activite
+
+{
+   display: flex;
+   flex-direction: column-reverse;
+}
+*/
+}
