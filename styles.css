@@ -64,8 +64,6 @@
 {
    display: flex;
    justify-content: space-between;
-   border-radius: center;
-
 }
 
 .bordureNav
@@ -153,7 +151,6 @@
 .flexBetween
 {
    display: flex;
-   border-radius: center;
 }
 
 .margeFiltreTitre
