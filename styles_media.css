@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 640px) {
+@media screen and (max-width: 640px) {
     body {}
 
     .menu
@@ -12,9 +12,56 @@
 #sinscrire
 {
     position: absolute;
-    top:0;
+    top: 0;
+    font-weight: bold;
     right:0;
+    text-align: right;
+    width: auto;
+    border-bottom: none;
 }
+
+#sinscrire a {
+
+    padding-top: 30px;
+    color:#0065FC;
+    margin-right: 30px;
+}
+
+.lien
+{
+    border-bottom: 1px solid grey;
+}
+
+.lien:active
+{
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
+
+}
+
+.fa-search
+{
+    display: block;
+    border-radius: 10px 10px 10px 10px; 
+    background-color: #0065FC;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.boutonSearch
+{
+    display:none
+}
+
+.blocActivites
+{
+    margin:0px;
+}
+
     .Nav {
         height: auto;
     }
@@ -24,6 +71,12 @@
         width: 100%;
         margin-left: 0;
     }
+
+    .lien {
+
+        width: 100%;
+    }
+
     #hebergement {
         display: flex;
         flex-direction: column-reverse;
@@ -52,6 +105,7 @@
     }
     .container {
         height: auto;
+        background-color: white;
     }
     .carte {
         flex: 100%;
@@ -71,12 +125,4 @@
     .footer {
         height: auto;
     }
-    /*
-.Activite
-
-{
-   display: flex;
-   flex-direction: column-reverse;
-}
-*/
 }
