@@ -4,9 +4,8 @@
    font-family: Raleway;
 }
 
-.colorGrey
-{
-   color:#F2F2F2;
+.colorGrey {
+   color: #F2F2F2;
 }
 
 .colorBleu {
@@ -215,6 +214,8 @@
    width: 30%;
    height: 225px;
    padding: 1%;
+   text-decoration: none;
+   color:black;
 }
 
 .carte img {
